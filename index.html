@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" text="text/css" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="index.html" class="logo"><img src="images/logo.png"></a>
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+
+        <div class="nav-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="images/home.png"> <span>Home</span></a></li>
+                <li><a href="#"><img src="images/network.png"> <span>My Network</span></a></li>
+                <li><a href="#"><img src="images/jobs.png"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="images/message.png"><span>Messaging</span></a></li>
+                <li><a href="#"><img src="images/notification.png"><span>Notifications</span></a></li>
+            </ul>
+            
+        </div>
+
+        <div class="nav-right">
+            <div class="online">
+                <img src="images/user1.jpg" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/user1.jpg" >
+                    <div>
+                        <h3>Vigneshwari V</h3>
+                        <h5>Computer science Engineer | Intern at @OctaNet | 5🌟HackerRank(Python) | python | java | JS</h5>
+                        <a href="profile.html">View profile</a>
+                    </div>
+                </div>
+                <hr> 
+                <br>
+                <h4>Account</h4>
+                <a href="#" class="profile-menu-link">
+                    <i class="fa-solid fa-square" style="color: #f7c202;"><span>Try Premium for free</span></i>
+                    <span></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <p>Settings & Privacy</p>
+                    <span></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <p>Help</p>
+                    <span></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <p>Language</p>
+                    <span></span>
+                </a>
+                <hr> 
+                <br>
+                <h4>Manage</h4>
+                <a href="#" class="profile-menu-link">
+                    <p>Posts & Activity</p>
+                    <span></span>
+                </a>
+
+                <a href="#" class="profile-menu-link">
+                    <p>Job Posing Account</p>
+                    <span></span>
+                </a>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <p>Sign Out</p>
+                    <span></span>
+                </a>
+
+            </div>
+
+        </div>
+
+        
+
+
+        <!--------profile drop down menu------------->
+    
+
+    </nav>
+
+
+    <!--------nav close----------------------->
+
+    <div class="container">
+        
+    
+        <!----------left sidebar----------------->
+        <div class="left-sidebar">
+            <div class="sidebar-profile-box">
+                <img src="images/coverpic.jpg" width="100%">
+                <div class="sidebar-profile-info">
+                    <img src="images/user1.jpg">
+                    <h1>Vigneshwari V</h1>
+                    <h3>Computer science Engineer | Intern at @OctaNet | 5🌟HackerRank(Python) | python | java | JS</h3>
+                    <div class="line"></div>
+                    <ul>
+                        <li>who's viewed your profile <span>85</span></li>
+                        <li>Impressions of your post<span>288</span></li>
+                        
+                    </ul>
+                </div>
+                <div class="sidebar-profile-link">
+                    <a href="#"><img src="images/items.png">My items</a>
+                    <a href="#"><img src="images/premium.png">Try premium</a>
+                </div>
+            </div>
+
+            <div class="sidebar-activity">
+                <h3>Recent</h3>
+                <a href="#"><img src="images/recent.png" >Frontend Developers</a>
+                <a href="#"><img src="images/recent.png" >Online Learning</a>
+                <a href="#"><img src="images/recent.png" >Learn Code</a>
+                <a href="#"><img src="images/recent.png" >Code Better</a>
+                <a href="#"><img src="images/recent.png" >Group Learning</a>
+                <h3>Groups</h3>
+                <a href="#"><img src="images/group.png" >Web Design</a>
+                <a href="#"><img src="images/group.png" >HTML & CSS Learners</a>
+                <a href="#"><img src="images/group.png " >Python</a>
+                <a href="#"><img src="images/group.png " >Gode Hub</a>
+                <h3>Events</h3> 
+                <h3>Followed Hashtags</h3>
+                <a href="#"><img src="images/hashtag.png " >webdeveloper</a>
+                <a href="#"><img src="images/hashtag.png " >userinterface</a>
+                <a href="#"><img src="images/hashtag.png " >onlinelearning</a>
+                <div class="discover-more-link">
+                    <a href="#">Discover more</a>
+                </div>
+            </div> 
+        </div>
+
+
+        <!--------------main sidebae------------->
+        <div class="main-sidebar">
+            <div class="create-post">
+                <div class="create-post-input">
+                    <img src="images/user1.jpg">
+                    <textarea rows="2" placeholder="write a post"></textarea>
+                </div>
+                <div class="create-post-links">
+                    <li><img src="images/photo.png" >Photo</li>
+                    <li><img src="images/video.png" >video</li>
+                    <li><img src="images/bag.png">Job</li>
+                    <li><img src="images/event.png" >Event</li>
+                    
+                </div>
+            </div>
+            <div class="sort-by">
+                <hr>
+                <p>Sort by: <span>Top <img src="images/down-arrow.png"></span></p>
+            </div>
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="images/user3.jpg">
+                    <div>
+                        <h1>Priyash Agarwal<span>(He/Him) <b> &middot;</b>Following</span></h1>
+                        <small>ICPC World Finalist | AIR 1 Google Kick Start | SDE @Zomato | Founder.... </small>
+                        <small>2h <b>&middot;</b></small>
+                        
+                    </div>
+                </div>
+                <p>After teaching 3500 students and resolving ~25000 competitive programming doubts in the last 2.5 years, we are launching TLE Eliminators 8.0<br> <br><a href="#">#competitiveprogramming #algorithms #codeforces #problemsolving #doubtsupport #course #community</a> </p>
+                <img src="images/post-image1.jpg" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="images/thumbsup.png">
+                        <img src="images/love.png">
+                        <img src="images/clap.png">
+                        <span class="liked-user">vicky and 475 others</span>
+                    </div>
+                    <div>
+                        <span>11 comments &middot; 40 Shares</span>
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <div>
+                        <img src="images/user1.jpg" class="post-activity-icon">
+                        <img src="images/down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/like.png">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/comment.png">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/share.png">
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/send.png">
+                        <span>Send</span>
+                    </div>
+                </div>
+            </div>
+            <!--2nd post-->
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="images/user-4.png">
+                    <div>
+                        <h1>Clarence<span>(She/Her) <b> &middot;</b>Following</span></h1>
+                        <small>Software Developer </small>
+                        <small>6h <b>&middot;</b></small>
+                        
+                    </div>
+                </div>
+                <p>As developers, we love to unravel the mysteries lurking in our code. 😄 Today, I came across this hilarious picture: a developer peeking behind a mask that says, 'Let's see who caused this issue!' And guess what? I found my own face staring... </a> </p>
+                <img src="images/post-image-1.png" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="images/thumbsup.png">
+                        <img src="images/love.png">
+                        <img src="images/clap.png">
+                        <span class="liked-user">james and 475 others</span>
+                    </div>
+                    <div>
+                        <span>10 comments &middot; 10 Shares</span>
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <div>
+                        <img src="images/user1.jpg" class="post-activity-icon">
+                        <img src="images/down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/like.png">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/comment.png">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/share.png">
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/send.png">
+                        <span>Send</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!--3rd post-->
+            
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="images/user-3.png">
+                    <div>
+                        <h1>Alexa<span>(She/Her) <b> &middot;</b>Following</span></h1>
+                        <small>Technical Lead </small>
+                        <small>1d <b>&middot;</b></small>
+                        
+                    </div>
+                </div>
+                <p>FREE course to learn ChatGPT & AI- Increase your productivity by 10x with the correct use of AI🔥</p>
+                <img src="images/post-image-3.png" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="images/thumbsup.png">
+                        <img src="images/love.png">
+                        <img src="images/clap.png">
+                        <span class="liked-user">Diya and 475 others</span>
+                    </div>
+                    <div>
+                        <span>10 comments &middot; 22 Shares</span>
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <div>
+                        <img src="images/user1.jpg" class="post-activity-icon">
+                        <img src="images/down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/like.png">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/comment.png">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/share.png">
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/send.png">
+                        <span>Send</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--4th post-->
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="images/user-2.png">
+                    <div>
+                        <h1>Muzammil<span>(He/His) <b> &middot;</b>Following</span></h1>
+                        <small>--</small>
+                        <small>1h <b>&middot;</b></small>
+                        
+                    </div>
+                </div>
+                <p>🔥🔥We are Conducting 💸F:REE L_ean Six Sigma Green Belt Training 🚀
+
+                    If you are interested,
+                    comment as "Interested"
+                    
+                    will share more details n
+                    Surprise gift🎁 for you.. </p>
+                <img src="images/post-image-4.png" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="images/thumbsup.png">
+                        <img src="images/love.png">
+                        <img src="images/clap.png">
+                        <span class="liked-user"> Yash and 475 others</span>
+                    </div>
+                    <div>
+                        <span>8 comments &middot; 10 Shares</span>
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <div>
+                        <img src="images/user1.jpg" class="post-activity-icon">
+                        <img src="images/down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/like.png">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/comment.png">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/share.png">
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/send.png">
+                        <span>Send</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+        <!-----------------right sidebar---------->
+        <div class="right-sidebar">
+            <div class="sidebar-news">
+                <img src="images/more.png" class="info-icon">
+                <h3>LinkedIn News</h3>
+                <a href="#">Fidelity International to hire 800</a>
+                <span>1d ago </span>
+
+                <a href="#">More players enter semiconductor race</a>
+                <span>1d ago </span>
+
+                <a href="#">Affordable housing hits a slump</a>
+                <span>2d ago</span>
+
+                <a href="#">High demand for skilled manpower</a>
+                <span>4d ago </span>
+
+                <a href="#" class="read-more-link">Show More</a>
+            </div>
+
+            <div class="sidebar-ad">
+                <small>Ad <span> &middot; &middot; &middot;</span> </small>
+                <p>Get the latest jobs and industry news</p>
+                <div>
+                    <img src="images/user1.jpg">
+                    <img src="images/aramco.jpg">
+                </div>
+                <b>Vigneshwari,<span>aramco</span> is hiring!</b>
+                <a href="#" class="ad-link">Follow</a>
+            </div>
+
+            <div class="sidebar-useful-links">
+                
+                <a href="#">About</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Help Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Add Choices</a>
+                <a href="#">Advertising  </a>
+                <a href="#">Business Service</a>
+                <a href="#">Get the LinkedIn app</a>
+                <a href="#">More</a>
+
+                <div class="copyright-msg">
+                    <h3>Linked</h3>
+                    <img src="images/logo.png">
+                    <p>LinkedIn Corporation &#169; 2023. </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+
+        let profileMenu = document.getElementById("profileMenu");
+
+        function toggleMenu(){
+            profileMenu.classList.toggle("open-menu");
+        }
+
+    </script>
+</body>
+</html>
